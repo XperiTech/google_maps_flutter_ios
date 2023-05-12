@@ -8,8 +8,55 @@
   "tvOS" : [
 
   ],
-  "commitish" : "7.0.0",
+  "commitish" : "7.2.0-beta",
   "iOS" : [
-
+    {
+      "hash" : "c92d79a68ea6d57fa7f33dc868b2a5758d6496ed9c11c9b9914d2b47c8e50c9a",
+      "name" : "GoogleMaps",
+      "container" : "GoogleMaps.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "2c76c299d5eb1fdfee8bb486ca642cb6cba8764531243278b7870870f4e1d17b",
+      "name" : "GoogleMaps",
+      "container" : "GoogleMaps.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "3a964f43d30ba7423df3ca0af838e2eaa66a4d4163901dfb585fdfcb83f383d5",
+      "name" : "GoogleMapsBase",
+      "container" : "GoogleMapsBase.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "ec5d8b8f5f0e6502cc7171a8b218fb6d53c3cf86a6144534beb6fd255fb8ffee",
+      "name" : "GoogleMapsBase",
+      "container" : "GoogleMapsBase.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "700ae4a3eef0bb6b1487f98413e159404cf3fdad367acdbc4a2dbd97f16da75d",
+      "name" : "GoogleMapsCore",
+      "container" : "GoogleMapsCore.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "d6c9ad75b1d862947f8fec71554f408a7d8a3975e25cace8d52fcd96401fb8cc",
+      "name" : "GoogleMapsCore",
+      "container" : "GoogleMapsCore.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "12d317e49123537746b54ef0975ac5217efe82d813f6c500dc5d4f887a5ca1b5",
+      "name" : "GoogleMapsM4B",
+      "container" : "GoogleMapsM4B.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "8e6874fea7a845091c5e0e782b0df3a0b9c22f8e7bc1db18ff78bb9f64965a3e",
+      "name" : "GoogleMapsM4B",
+      "container" : "GoogleMapsM4B.xcframework",
+      "identifier" : "ios-arm64"
+    }
   ]
 }
