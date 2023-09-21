@@ -22,11 +22,9 @@ Downloaded by pub (not CocoaPods).
   s.platform = :ios, '13.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
-#   s.dependency 'GoogleMaps', '~> 7.0.0'
-  s.vendored_frameworks = 'Carthage/Build/GoogleMaps.xcframework', 'Carthage/Build/GoogleMapsBase.xcframework' , 'Carthage/Build/GoogleMapsCore.xcframework'
-#   s.resource_bundle = 'Carthage/Build/GoogleMapsBase.xcframework/ios-arm64/GoogleMaps.framework/Resources/GoogleMaps.bundle'
-  s.resources = 'Carthage/Build/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle'
-  s.preserve_path = 'Carthage/Build/*'
+  s.vendored_frameworks = 'Frameworks/GoogleMaps.xcframework', 'Frameworks/GoogleMapsBase.xcframework' , 'Frameworks/GoogleMapsCore.xcframework'
+  s.resources = 'Frameworks/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle'
+  s.preserve_path = 'Frameworks/*'
   s.libraries = 'z', 'c++'
   s.frameworks = 'Accelerate', 'CoreData', 'CoreGraphics', 'CoreImage', 'CoreLocation', 'CoreTelephony', 'CoreText', 'GLKit', 'ImageIO', 'Metal', 'OpenGLES', 'QuartzCore', 'SystemConfiguration', 'UIKit'
 end
