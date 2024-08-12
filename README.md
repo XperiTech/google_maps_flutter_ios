@@ -1,5 +1,7 @@
 # google\_maps\_flutter\_ios
 
+> **⚠️ Disclaimer: This README is out of date and may not reflect the latest changes or instructions. Please verify any information before use.**
+
 Fork of the official plugin
 - [google_maps_flutter_ios](https://github.com/flutter/plugins/tree/main/packages/google_maps_flutter/google_maps_flutter_ios)
 
@@ -40,3 +42,5 @@ dependency_overrides:
 
 1. Go to https://developers.google.com/maps/documentation/ios-sdk/config#install-the-xcframework and download the SDK source files.
 2. Find `GoogleMaps`, `GoogleMapsBase` and `GoogleMapsCore` xcframeworks and copy them over to `Frameworks` directory
+
+
